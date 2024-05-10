@@ -42,7 +42,7 @@ const ShopCategory = (props) => {
     <div className='shop-category'>
       <img className='shopcategory-banner' src={props.banner} alt='' />
       <div className='shopcategory-indexSort'>
-        <p>
+        <p className={`shopcategory-head_${theme}`}>
           <span>{`Showing ${startIndex + 1}-${endIndex}`}</span> out of {totalProducts} products
         </p>
         <div className={`shopcategory-sort_${theme}`}>

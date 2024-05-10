@@ -11,10 +11,13 @@ const Footer = () => {
     const {theme}=useContext(ShopContext);
     return (
         <div className='footer'>
-            <div className="footer-logo">
-                <img src={footer_logo} alt="" />
-                <p className={`footer_${theme}`}>ShopNex</p>
-            </div>
+            <Link className='footer-logo-link' to={'/'}>
+                <div className="footer-logo">
+                    <img src={footer_logo} alt="" />
+                    <p className={`footer_${theme}`}>ShopNex</p>
+                </div>
+            </Link>
+            
             <ul className={'footer-links_'+theme}>
                 <li>Company</li>
                 <li>Products</li>
@@ -28,7 +31,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-icons-container">
                     <img src={pintester_icon} alt="" />
-                </div>
+                </div> 
                 <div className="footer-icons-container">
                     <img src={whatsapp_icon} alt="" />
                 </div>

@@ -6,6 +6,10 @@
     gap: 50px;
     margin-top: 170px;
 }
+.footer-logo-link {
+    cursor: pointer;
+    text-decoration: none;
+}
 
 .footer-logo {
     display: flex;
@@ -57,6 +61,7 @@
     padding-bottom: 6px;
     background: #fbfbfb;
     border: 1px solid #ebebeb;
+    cursor: pointer;
 }
 
 .footer-copyright_dark{

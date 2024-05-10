@@ -10,35 +10,41 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.shopcategory-head_light{
+  color: white;
+}
 .shopcategory-sort_dark {
   font-family: inherit;
   text-align: center;
-  padding: 10px 35px 10px 20px;
+  padding: 10px 25px 10px 20px;
   border-radius: 40px;
   border: 1px solid #888;
   -moz-appearance: none;
   -webkit-appearance: none;
-  background: url("../../Components/Assets/dropdown_icon.png") no-repeat right
-    center;
+  /* background: url("../../Components/Assets/dropdown_icon.png") no-repeat right center; */
   background-position: calc(100% - 15px) center;
   font-size: 16px;
 }
 .shopcategory-sort_light {
   font-family: inherit;
   text-align: center;
-  padding: 10px 35px 10px 20px;
+  padding: 10px 25px 10px 20px;
   border-radius: 40px;
   border: 1px solid #ffffff;
   -moz-appearance: none;
   -webkit-appearance: none;
-  background: url("../../Components/Assets/dropdown_icon.png") no-repeat right
-    center;
+  /* background: url("../../Components/Assets/dropdown_icon.png") no-repeat right center; */
   background-position: calc(100% - 15px) center;
   font-size: 16px;
   background: rgb(255, 255, 255);
 }
 
+.shopcategory-sort_dark select{
+  margin-left: 10px;
+}
+.shopcategory-sort_light select{
+  margin-left: 10px;
+}
 .shopcategory-sort option {
   text-align: left;
 }
@@ -51,22 +57,28 @@
   margin: 20px 70px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 80px;
+  row-gap: 80px !important;
+  gap: 10px;
 }
 
 .shopcategory-loadmore {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 150px auto;
+  margin: 150px auto; 
   width: 233px;
   height: 69px;
   border-radius: 75px;
-  background: #ededed;
-  color: #787878;
+  background: #787878;
+  color: #ededed ;
   font-size: 18px;
   font-weight: 500;
-  cursor: pointer;
+  cursor: pointer; 
+  padding: 10px 15px;
+  transition: background-color 0 auto.3s ease;
+}
+.shopcategory-loadmore:hover {
+  background-color: #e64a2e ; /* Change color on hover */
 }
 .psc_light{
   color:white;

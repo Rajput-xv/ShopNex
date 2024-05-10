@@ -35,7 +35,7 @@ const CartItems = () => {
             style={{ width: "150px", marginLeft: "490px" }}
           />
           <div style={{ textAlign: "center" }}>
-            <p style={{ fontSize: "24px", color: "#333" }}>
+            <p style={{ fontSize: "24px", color: "#9BACC9" }}>
               Hey, it feels so light!
             </p>
             <p style={{ fontSize: "18px", color: "#999" }}>
